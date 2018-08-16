@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kadai1</title>
+	<meta charset="utf-8">
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+ 	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	
+　　
+</head>
+<body>
+	<img src="../img/img1.png" class="img1">
+	<img src="../img/img2.png" hidden class="img2">
+	
+	<script type="text/javascript">
+		$(function(){
+			$('.img1').mouseover(function(){
+				$('.img1').hide();
+				$('.img2').show();
+		});
+
+	});
+	</script>
+</body>
+</html>

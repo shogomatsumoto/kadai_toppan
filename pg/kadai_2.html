@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kadai2</title>
+	<meta charset="utf-8">
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.min.js"
+ 	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<div class="text">ボタンを押すと色が変わる</div>
+	<button class="btn">ボタン</button>
+	
+	<script type="text/javascript">
+		$(function(){
+		$('.btn').click(function(){
+			$('.text').css('background-color','red');
+			$('.text').css('color','white');
+		});
+	});
+	</script>
+
+</body>
+</html>
